@@ -11,12 +11,10 @@ public class Main {
         Prodotto smartphone = new Prodotto("Samsung", 899, 22);
 
         //RICHIAMO DEI METODI DALL'ISTANZA
-        laptop.codiceRandom();
         laptop.prezzoBase();
         laptop.prezzoIvato();
         laptop.nomeEsteso(); 
 
-        smartphone.codiceRandom();
         smartphone.prezzoBase();
         smartphone.prezzoIvato();
         smartphone.nomeEsteso();
