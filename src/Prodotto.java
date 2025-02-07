@@ -12,7 +12,7 @@ public class Prodotto {
     //
 
     //COSTRUTTORE con PARAMETRI se dentro le parentesi aggiungiamo dei valori richiesti
-    public Prodotto(String nome, int prezzo, int iva){
+    public Prodotto(String nome, double prezzo, double iva){
         codiceRandom();//richiamandolo nel costruttore viene generato direttamente il codice ogni volta che viene creato un nuovo oggetto
         this.nome = nome;
         this.prezzo = prezzo;
